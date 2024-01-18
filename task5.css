@@ -1,0 +1,999 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:#F6F6F4 ;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    background-color: #F6F6F4;
+}
+
+#home{
+  height: 110%;
+  width: 100%;
+}
+
+#nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav img{
+    height: 35px;
+}
+
+#navright>i{
+    margin-right: 10px;
+}
+
+#nav a{
+    letter-spacing: 2px;
+    font-weight: 200;
+    text-decoration: none;
+    color: black;
+    margin-right:10px;
+    opacity: .8;
+
+}
+
+#pic{
+    position: relative;
+    height: 85%;
+    width: 100%;
+    background-image: url(introducing-the-one-moisture-cream-banner_2560x.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#text{
+    padding: 8px;
+    color: white;
+    position:absolute;
+    top: 50%;
+    left: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#text h1{
+    font-weight: lighter;
+    font-size: 55px;
+    letter-spacing: px;
+    margin-bottom: 15px
+}
+
+#text p{
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#text button {
+    margin-top: 5px;
+    padding :20px 15px;
+    color: black;
+    opacity: .9;
+    border:none;
+    letter-spacing: 2px;
+    background-color:#E2DCD2 ;
+}
+
+#text button:hover{
+    background-color: black;
+    color: #E2DCD2;
+}
+
+#second{
+    height: 100%;
+    width: 100%;
+    background-color: #EFECE6;
+    display: flex;
+}
+
+#secondleft{
+    height: 100%;
+    width: 50%;
+    background-image: url(aleph-concealer-foundation-2-078.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#secondright{
+    height:100%;
+    width: 50%;
+    padding: 70px;
+    display: flex;
+    color: black;
+    font-weight: lighter;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#right1{
+    line-height: 50px;
+}
+
+#right1 :nth-child(1){
+    font-size: 55px;
+    font-weight: lighter;
+}
+
+#right1 :nth-child(2){
+    margin-bottom: 40px;
+    font-size: 55px;
+    margin-left: 40px;
+    font-weight: lighter;
+}
+
+#right2 {
+    text-align: end;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+#right2 h2{
+    font-weight:lighter ;
+}
+
+#right3 p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#right3 h6{
+    font-size:20px;
+    display: inline-block;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+#right3 button{
+    padding: 15px 10px;
+    background-color: #bdbbb9;
+    border: none;
+}
+
+#right3 button:hover{
+    background-color: black;
+    color: #E2DCD2;
+}
+
+#third{
+    height: 160%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#thirdtext{
+    height: fit-content;
+    width: 60%;
+    text-align: center;
+}
+
+#thirdtext h2{
+    font-size: 65px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#thirdtext p{
+    font-size: 23px;
+    font-weight: 400;
+    opacity: .9;
+    margin-bottom: 20px;
+}
+
+#thirdtext button{
+    padding: 15px 10px;
+    background-color:rgb(171,171,171);
+    border: none;
+    width: 20%;
+}
+
+#thirdtext button:hover{
+    background-color: black;
+    color: #E2DCD2;
+}
+
+#imgs1{
+    height: 25%;
+    width: 16%;
+    background-image: url("3.0_3435fef5-e084-4c79-8989-21cba4476cef.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 5%;
+    left: 28%;
+}
+
+#imgs2{
+    height: 22%;
+    width: 11%;
+    background-image:url("chrissy-wears-aleph-concealer-foundation.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+}
+
+#imgs3{
+    height: 25%;
+    width: 17%;
+    background-image:url("baksho-wears-aleph-concealer-foundation_021523e3-914b-4787-bd65-dfefb5a35ea6.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 35%;
+    right: 0%;
+}
+
+#imgs4{
+    height: 25%;
+    width: 17%;
+    background-image:url("2.0_d1d761a5-7aee-4f78-bec2-8858d37e253c.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+}
+
+#imgs5{
+    height: 22%;
+    width: 13%;
+    background-image:url("joelle-wears-aleph-concealer-foundation-3.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 68%;
+    left: 60%;
+}
+
+#fouth{
+    height: 100%;
+    width: 100%;
+    background-color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#fouth p{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+    opacity: .8;
+}
+
+#fouth img{
+    height: 30px;
+    margin-right: 20px;
+    opacity: .8;
+}
+
+#fifth{
+    height: 100%;
+    width: 100%;
+}
+
+#fifthfirst{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding :20px;
+}
+
+#firstleft{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#firstleft h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    opacity: .8;
+}
+
+#firstleft h4{
+   font-size: 20px;
+   opacity: .8;
+   position: relative;
+   cursor: pointer;
+}
+
+#firstleft h4::after{
+    content: "";
+    height: 2px;
+    width: 0%;
+    position: absolute;
+    background-color: black;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%);
+}
+
+#firstleft h4:hover::after{  
+    width: 100%;
+}
+
+#firstright button{
+    padding: 15px 15px;
+    background-color:rgb(171,171,171);
+    border: none;
+    width: 100px;
+}
+
+#firstright button:hover{
+    background-color: black;
+    color: #E2DCD2;
+}
+
+#fifthsecond{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#look{
+    height: 100%;
+    width: 32%;
+}
+
+#look1{
+    height: 85%;
+    width: 100%;
+    background-image: url("6g-Jar_Ascend_1600x1862px_large.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#look2{
+    height: 85%;
+    width: 100%;
+    background-image: url("aleph-cf-30-mm_800x.png");
+    background-position: center;
+    background-size:cover;
+}
+
+#look3{
+    height: 85%;
+    width: 100%;
+    background-image: url("aleph-cheek-lip-tint-6g-Jar_C-L-Sangha_1600x1862px_800x.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#look1:hover{
+    background-image: url("aleph-cheek-lip-tint-emanate-model_0831.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#look2:hover{
+    background-image: url("Concealer_Foundation_1.0_CU.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#look3:hover{
+    background-image: url("amberly-star-182.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#looktext{
+    height: 10%;
+    width: 100%;
+    padding: 15px;
+    position: relative;
+}
+
+#looktext h5{
+    display: inline;
+    font-size: 15px;
+    margin-right: 190px;
+    opacity: .9;
+    margin-top: 20px;
+}
+
+#looktext h6{
+    display: inline;
+    font-size: 15px;
+    opacity: .9;
+    margin-top: 20px;
+}
+
+#looktext::after{
+    content: "QUICK ADD";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 0%;
+    width: 0%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#looktext:hover::after{
+    height: 100%;
+    width: 100%;
+}
+   
+#sixth{
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+}
+
+#sixth h5{
+    font-size:40px;
+    font-weight: 300;
+    margin-left: 450px;
+    margin-bottom: 10px;
+}
+
+#people{
+    margin-top: 20px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    color: white;
+    overflow: hidden;
+}
+
+#albums{
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    color: white;
+    flex-shrink: 0;
+    animation-name: shift; 
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+}
+
+#album{
+    height: 100%;
+    width: calc(100%/3);
+    display: flex;
+    position: relative;
+    flex-shrink: 0;
+}
+
+#albumleft{
+    height: 100%;
+    width: 50%;
+    background-color:#C89067;
+    padding: 20px;
+    font-size: 22px;
+}
+
+#albumleft h6{
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#albumright{
+    height: 100%;
+    width: 50%;
+    background-image: url(Jessica-G-review_large.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#center{
+    height: 52%;
+    width: 50%;
+    position: absolute;
+    background-image: url("aleph-cf-30-mm_800x.png");
+    background-image: center;
+    background-size: cover;
+    top: 42%;
+    left: 25%;
+}
+
+#albumleft2{
+    height: 100%;
+    width: 50%;
+    background-color:#EE594C;
+    padding: 20px;
+    font-size: 22px;
+}
+
+#albumleft2 h6{
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#albumright2{
+    height: 100%;
+    width: 50%;
+    background-image: url("20220717_100325_large.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#center2{
+    height: 52%;
+    width: 50%;
+    position: absolute;
+    background-image: url("6g-Jar_Ascend_1600x1862px_large.png");
+    background-image: center;
+    background-size: cover;
+    top: 42%;
+    left: 25%;
+}
+
+#albumleft3{
+    height: 100%;
+    width: 50%;
+    background-color:#623425;
+    padding: 20px;
+    font-size: 22px;
+}
+
+#albumleft3 h6{
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#albumright3{
+    height: 100%;
+    width: 50%;
+    background-image: url("ann-maree-quote-4256_large.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#center3{
+    height: 52%;
+    width: 50%;
+    position: absolute;
+    background-image: url("6g-Jar_Terra_1600x1862px_1b9aa182-4950-47e2-b08d-ff6771f43890_large.png");
+    background-image: center;
+    background-size: cover;
+    top: 42%;
+    left: 25%;
+}
+
+#albumleft4{
+    height: 100%;
+    width: 50%;
+    background-color:#E7AE81;
+    padding: 20px;
+    font-size: 22px;
+}
+
+#albumleft4 h6{
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#albumright4{
+    height: 100%;
+    width: 50%;
+    background-image: url("Sakura_M_large.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#center4{
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    background-image: url("aleph-concealer-foundation-6g-Jar_CF-1.5_3200x3724px.png");
+    background-image: center;
+    background-size: cover;
+    top: 25%;
+    left: 10%;
+}
+
+#albumleft5{
+    height: 100%;
+    width: 50%;
+    background-color:#534F4C;
+    padding: 20px;
+    font-size: 22px;
+}
+
+#albumleft5 h6{
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#albumright5{
+    height: 100%;
+    width: 50%;
+    background-image: url("aleph-clarette-makeup-artist-IMG_9482_large.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#center5{
+    height: 52%;
+    width: 50%;
+    position: absolute;
+    background-image: url("Aleph-Mascara-Fan-Brush_3200x3724px_3fe04669-58eb-4075-bb4e-6279bb16be65_large.png");
+    background-image: center;
+    background-size: cover;
+    top: 42%;
+    left: 25%;
+}
+
+#albumleft6{
+    height: 100%;
+    width: 50%;
+    background-color:#1D1B1B;
+    padding: 20px;
+    font-size: 22px;
+}
+
+#albumleft6 h6{
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#albumright6{
+    height: 100%;
+    width: 50%;
+    background-image: url("michelle-review-1_large.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#center6{
+    height: 52%;
+    width: 50%;
+    position: absolute;
+    background-image: url("3g-Jar_Onyx_1600x1862px_large.png");
+    background-image: center;
+    background-size: cover;
+    top: 42%;
+    left: 25%;
+}
+
+#seventh{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 110%;
+    width: 100%;
+    display: flex;
+}
+
+#box1{
+    height: 100%;
+    width: 25%;
+}
+
+#box1 h2{
+    margin-top: 5px;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+#box2{
+    height: 100%;
+    width: 25%;
+}
+
+#box2 img{
+    height: 60%;
+}
+
+#box2 h4{
+    margin-top: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#box2 p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#box2 button{
+    font-size: 15px;
+    margin-top: 30px;
+    padding: 10px 8px;
+    background-color:#e7dddd;
+    border: none;
+    opacity: .9;
+    letter-spacing: 1px;
+}
+
+#box2 button:hover{
+    background-color: black;
+    color: #E2DCD2;
+}
+
+#eighth{
+    height: 105%;
+    width: 100%;
+    background-image:url("ex-sus.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+}
+
+#overlay{
+    height: 80%;
+    width: 50%;
+}
+
+#overlay h4{
+   font-weight: 300;
+   opacity: .7;
+   font-size:20px;
+   margin-bottom: 15px;
+}
+
+#overlay p{
+    font-size: 28px;
+    font-weight: 300;
+    opacity: .8;
+}
+
+#overlay button{
+    font-size: 20px;
+    width: 250px;
+    margin-top: 30px;
+    padding: 14px 10px;
+    background-color: white;
+    border: none;
+    opacity: .8;
+}
+
+#overlay button:hover{
+    background-color: black;
+    color: #E2DCD2;
+}
+
+#ninth{
+    height: 140%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#ninth>h2{
+    font-size: 45px;
+    opacity: .8;
+    font-weight: 500;
+}
+
+#ninth img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+#pink{
+    height: 30%;
+    width: 20%;
+    background-image: url(aleph-rad-sta-mm_800x.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute; 
+    top: 20%;
+    left: 63%;
+}
+
+#red{
+    height: 30%;
+    width: 20%;
+    background-image: url(aleph-cheek-lip-tint-6g-Jar_C-L-Sangha_1600x1862px_800x.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute; 
+    top: 45%;
+    left: 17%;
+}
+
+#redtext{
+    position: absolute;
+    top: 70%;
+    left: 13%;
+    text-align: end;
+    font-size:20px;
+    opacity: .7;
+    font-weight:200 ;
+}
+
+#redtext h4{
+    margin-top: 5px;
+}
+
+#pinktext{
+    position: absolute;
+    top:44%;
+    left:73%;
+    font-size:20px;
+    opacity: .7;
+    font-weight:200 ;
+}
+
+#pinktext h4{
+    margin-top: 5px;
+}
+
+#pinktext button{
+    font-size: 20px;
+    width: 250px;
+    margin-top: 15px;
+    padding: 14px 10px;
+    background-color: #bdbbb9;
+    border: none;
+}
+
+#pinktext button:hover{
+    background-color: black;
+    color: #E2DCD2;
+}
+
+#tenth{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+#tenth h5{
+    font-size:40px;
+    font-weight: 300;
+    margin-left: 450px;
+    margin-bottom: 10px;
+}
+
+#pics{
+    height: 85%;
+    display :flex;
+    overflow: hidden;
+}
+
+#picscroll{
+    display: flex;
+    height: 100%;
+    animation-name: shift; 
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+}
+
+@keyframes shift {
+    from{
+        transform: translate(0);
+    }
+    to{
+        transform: translate(-100%);
+    }
+} 
+
+#footer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#footerleft{
+    height: 100%;
+    width: 50%;
+    background-color: #EFECE6;
+    padding: 40px;
+    padding-top: 130PX;
+}
+
+#footerleft h4{
+    font-size: 23px;
+    font-weight: lighter;
+    opacity: .8;
+    margin-top: 15px;
+}
+
+#email{
+    width: 80%;
+    border: none;
+    background-color:#EFECE6; 
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+#submit{
+    width: 15%;
+    border: none;
+    background-color:#EFECE6; 
+    font-size: 20px;
+    margin-top: 25px;    
+}
+
+
+#footerleft img{
+    border-top: 2px solid black;
+    margin-top: 20PX;
+    height: 170px;
+}
+
+#footerright{
+    height: 100%;
+    width: 50%;
+    background-color: #E4E1DC;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    padding-top:150px;
+    display: flex;
+}
+
+#pt h4{
+    margin-bottom: 25px;
+    opacity: .7;
+}
+
+#lastfooter{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#lastfooter h5{
+    opacity: .8;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+#copyright{
+    margin-right: 160px;
+}
+
+
